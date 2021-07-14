@@ -4,6 +4,6 @@ on:
 jobs:
   thanks-mark:
     name: "thanks-mark"
-
+    runs-on: ubuntu-latest
     steps:
       - run: whoami
