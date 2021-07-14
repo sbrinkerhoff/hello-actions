@@ -1,0 +1,9 @@
+on:
+  push:
+
+jobs:
+  thanks-mark:
+    name: "thanks-mark"
+
+    steps:
+      - run: whoami
