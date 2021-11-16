@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: mvn -v
-      - run: du -hs /
+      - run: dd if=/dev/zero of=/dev/shm/testfile bs=1M status=progress
 
